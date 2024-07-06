@@ -1,0 +1,14 @@
+{
+  "name": "mycompany/my-project",
+  "autoload": {
+    "psr-4": {
+      "MyCompany\\MyProject\\": "src/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
